@@ -7,7 +7,14 @@ public class Reverse {
 		//// Put your code here
                 String str = args[0];
                 int length = str.length();
-                int middle = (length/2);
+                int middle;
+                if(length % 2 == 0){
+                    middle = (length/2-1);
+                    }
+                else {
+                    middle = (length/2);
+                    }
+
                 for(int i = length ; i > 0 ; i--){
                         System.out.print(str.charAt(i-1));
 

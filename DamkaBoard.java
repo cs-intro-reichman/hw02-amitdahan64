@@ -8,18 +8,22 @@ public class DamkaBoard {
 
                 for(int i = 0; i < numbers; i++){
 
-                    for(int j = 0; j < numbers; j++){
-                        System.out.print("* ");
-                        }
+
 
                     if(i % 2 == 0){
-                        System.out.println("");
-                        System.out.print(" ");
+                        for(int j = 0; j < numbers; j++){
+                                                    System.out.print("* ");
+                                                    }
+
                         }
 
                     else{
-                        System.out.println("");
+                        for(int j = 0; j < numbers; j++){
+                            System.out.print(" *");
+                            }
+
                         }
+                    System.out.println();
 
                     }
 
