@@ -39,7 +39,7 @@ public class OneOfEachStats {
 
                     while(!boy || !girl){
 
-                        int random = (int)(Math.random() * 2);
+                        int random = (int)(generator.nextDouble() * 2);
 
                         if(random == 0){
                             boy_count ++;
