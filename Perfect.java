@@ -5,14 +5,14 @@ public class Perfect {
 	public static void main (String[] args) {
 		//// Put your code here
                 int number = Integer.parseInt(args[0]);
-                int sum = 1;
+                int sum = 0;
                 String perfect = number +" is a perfect number since " + number + " = ";
                 String not_perfect = number + " is not a perfect number";
 
                 for(int i = 1; i < number; i++){
 
                     if(number % i == 0){
-                        sum = sum * i;
+                        sum = sum + i;
                         perfect = perfect + i + " + ";
                         }
                     }
