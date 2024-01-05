@@ -10,7 +10,8 @@ public class OneOfEach {
                 Boolean girl = false;
                 int boy_count = 0;
                 int girl_count = 0;
-
+		/* In Java we use camelCase and not snake_case
+		example: boyCount instead of boy_count */
                 while(!boy || !girl){
 
                     int random = (int)(Math.random() * 2);

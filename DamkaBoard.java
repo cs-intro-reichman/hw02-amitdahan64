@@ -8,7 +8,7 @@ public class DamkaBoard {
 
                 for(int i = 0; i < numbers; i++){
 
-
+		//To many blank lines and the indentation is not good.
 
                     if(i % 2 == 0){
                         for(int j = 0; j < numbers; j++){

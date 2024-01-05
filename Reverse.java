@@ -14,11 +14,12 @@ public class Reverse {
                 else {
                     middle = (length/2);
                     }
-
+			
                 for(int i = length ; i > 0 ; i--){
                         System.out.print(str.charAt(i-1));
 
                     }
+		/* Insted of using str.charAt(i-1) you shuld have done for(int i = length -1 ; i >= 0 ; i--)*/
                 System.out.println("");
                 System.out.println("The middle character is " + str.charAt(middle));
 

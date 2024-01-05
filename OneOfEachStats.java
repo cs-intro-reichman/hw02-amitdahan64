@@ -29,7 +29,8 @@ public class OneOfEachStats {
                 int two_kids_counter = 0;
                 int three_kids_counter = 0;
                 int four_or_more_counter = 0;
-
+		/* In Java we use camelCase and not snake_case
+		example: threeKidsCounter instead of three_kids_counter */
                 for(int i = 0; i < T; i++){
 
                     Boolean boy = false;

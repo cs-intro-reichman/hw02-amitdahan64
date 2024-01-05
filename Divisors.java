@@ -11,5 +11,10 @@ public class Divisors {
                         }
                     }
 
+		/* when we want to iterate 'number' times we do
+		for( int i = 0; i < number; i++)
+		notice that this will run the same number of times, 
+		in computer science, we count from zero. */
+
 	}
 }
